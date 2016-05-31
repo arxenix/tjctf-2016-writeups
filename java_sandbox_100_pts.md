@@ -157,3 +157,6 @@ public class Main {
     }
 }
 ```
+
+## Flag
+`tjctf{j4V4_R3FL3C710n_15_7R1CkY}`
