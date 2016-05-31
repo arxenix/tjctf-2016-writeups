@@ -75,7 +75,7 @@ From this map, we see that the flag is split into four parts.
 - `fl4g_but_`
 - `YOUR_A1M_IS_G3TT1NG_B3TT3R}`
 
-Combining these, we get the actual flag.
+Concatenating these, we get the actual flag.
 
 ## Flag
 Flag: `tjctf{y0u_m1ght_h@v3_b33n_m1$sing_t3h_fl4g_but_YOUR_A1M_IS_G3TT1NG_B3TT3R}`
