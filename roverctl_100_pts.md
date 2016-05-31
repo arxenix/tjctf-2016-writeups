@@ -39,7 +39,7 @@ pic.show()                      # View in default viewer
 ```
 
 We generate the following image: ![](rover_output.png)
-We realize that this image is related to The Martian movie. These papers are surrounding the rover, and go from 0 to F. This gives 17 spots, including the sign in the middle. We use the image rotation packets (where the `diff`s come from) to find some hex values:
+We realize that this image is related to The Martian movie. These papers are surrounding the rover, and go from 0 to F. This gives 17 spots, including the sign in the middle. We use the camera rotation packets (where the `diff`s come from) to find some hex values:
 ```
 signs = ["S", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]
 
