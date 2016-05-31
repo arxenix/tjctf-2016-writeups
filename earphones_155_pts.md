@@ -1,4 +1,4 @@
-# corruption (130 pts)
+# earphones (155 pts)
 
 ---
 
