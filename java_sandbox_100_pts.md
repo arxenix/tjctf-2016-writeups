@@ -1,11 +1,11 @@
 # Java Sandbox (100 pts)
 
-
 ---
-
 
 ## Problem
 Everyone's heard of python jail escapes, but what about Java? [Java Sandbox](http://javasandbox.p.tjctf.org/)
+
+---
 
 ## Solution
 At first, we are presented with a login portal. We try a random username and password, and a message in the corner appears to try MySQL injection.
