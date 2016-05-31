@@ -12,7 +12,7 @@
 3) Open the file in a hex editor.<br>
 4) We see that every chunk length and checksum is messed up, as well as the IHDR being blank.<br>
 5) Fix all the chunk lengths and checksums. We used [pngcsum](http://schaik.com/png/pngcsum.html) to fix the checksums. and the following code to fix the lengths:<br>
-```
+```java
 public static void fixLengths() throws IOException {
     byte[] bytes = Files.readAllBytes(Paths.get("corrupted_.png"));
     int idx = -1;
@@ -53,7 +53,7 @@ public static void fixLengths() throws IOException {
 6) Check the top row of every possible bit depth/color type combo to find the ones that look most legitimate.<br>
 7) Grayscale with alpha channel seemed most legitimate.<br>
 8) Brute force create images of widths up to 1000 with an arbitrary set height (also need to fix checksums of each image).<br>
-```
+```java
 public static void genAll() throws IOException {
     byte[] bytes = Files.readAllBytes(Paths.get("corrupted_new_fixed.png"));
     for(int i = 200; i <= 1000; i+=5)
