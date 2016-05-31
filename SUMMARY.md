@@ -9,5 +9,5 @@
    * [Sketchy Airlines (100 pts)](sketchy_airlines_100_pts.md)
    * [Use the Force (80 pts)](use_the_force_80_pts.md)
    * [Crucible (140 pts)](crucible_140_pts.md)
-   * curvature2 (200 pts)
+   * [curvature2 (200 pts)](curvature2_200_pts.md)
 
