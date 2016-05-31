@@ -84,7 +84,6 @@ def solve(prob):
         ans += this
     
     return ans
-    # return raw_input()
 
 # fetch and solve 100 captchas
 solved = 0
