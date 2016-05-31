@@ -7,7 +7,11 @@
 ---
 
 ## Solution
-
+1) The patterns in the base 5 representation are rather interesting... It's somewhat similar to my RSA problem for CryptoCTF!
+2) Realize that in order for the repeated string of 1s in the middle to occur, the 2 factors must be of the form 1...1 (a ones) and 1...1 (b ones), in base 5
+3) a must be equal to the number of digits in the first repeating pattern, plus the number of repeated ones + 1
+4) b must be equal to the number of digits in the first repeating pattern+1
+5) Test to see if it works, then do a standard RSA decryption routine
 ---
 
 ## Flag
