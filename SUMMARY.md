@@ -17,4 +17,5 @@
    * [roverctl (100 pts)](roverctl_100_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
    * [nowisitreally (30 pts)](nowisitreally_30_pts.md)
+   * Doge 1 (30 pts)
 
