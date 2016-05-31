@@ -51,6 +51,7 @@ def name_char(char):
 def solve(prob):
     print '\n'.join(prob)
     
+    # split into individual characters
     tokens = [] # array (8) of arrays of arrays
     i = 0
     while i < len(prob[2]):
