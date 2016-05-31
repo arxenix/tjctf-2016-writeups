@@ -12,10 +12,10 @@
    * [Java Sandbox (100 pts)](java_sandbox_100_pts.md)
    * [May 1st, 2060 (100 pts)](may_1st,_2060_100_pts.md)
    * [Sketchy Airlines (100 pts)](sketchy_airlines_100_pts.md)
+   * [roverctl (100 pts)](roverctl_100_pts.md)
    * [Crucible (140 pts)](crucible_140_pts.md)
    * [tsundere (160 pts)](tsundere_160_pts.md)
    * [oneshot (170 pts)](oneshot_170_pts.md)
-   * [roverctl (100 pts)](roverctl_100_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
 
