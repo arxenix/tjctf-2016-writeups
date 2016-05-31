@@ -16,12 +16,12 @@
    * [roverctl (100 pts)](roverctl_100_pts.md)
    * [Crucible (140 pts)](crucible_140_pts.md)
    * [tsundere (160 pts)](tsundere_160_pts.md)
+   * [gravitymud (90 pts)](gravitymud_90_pts.md)
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * [Cipher Font (50 pts)](cipher_font_50_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
    * [Znzarmt Mvd Hproo (10 pts)](znzarmt_mvd_hproo_10_pts.md)
-   * [gravitymud (90 pts)](gravitymud_90_pts.md)
    * [corruption (90 pts)](corruption_130_pts.md)
    * [Super Questionable Luggage Service (30 pts)](super_questionable_luggage_service_30_pts.md)
 
