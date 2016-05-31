@@ -6,6 +6,7 @@
    * [nowisitreally (30 pts)](nowisitreally_30_pts.md)
    * [Super Questionable Luggage Service (30 pts)](super_questionable_luggage_service_30_pts.md)
    * [Doge 2 (35 pts)](doge_2_35_pts.md)
+   * [Cipher Font (50 pts)](cipher_font_50_pts.md)
    * [RSA 1 (60 pts)](rsa_1_60_pts.md)
    * [A Hundred Captchas (60 points)](a_hundred_captchas_60_points.md)
    * [Use the Force (80 pts)](use_the_force_80_pts.md)
@@ -21,7 +22,6 @@
    * [Crucible (140 pts)](crucible_140_pts.md)
    * [tsundere (160 pts)](tsundere_160_pts.md)
    * [oneshot (170 pts)](oneshot_170_pts.md)
-   * [Cipher Font (50 pts)](cipher_font_50_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
 
