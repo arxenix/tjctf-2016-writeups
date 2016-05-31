@@ -50,6 +50,7 @@ $ $ python -c 'print "add\na\na\n"+"\x80\xb0\x04\x08"*76' | ./blag_0eef9b24c4a11
 I picked 'meme' as my local admin password, but if you tried it remotely you would get the real admin password. From there you can just authorize yourself and get the flag!!
 
 pwned.
-
+##Flag
+`tjctf{I_h3aRd_ab0u7_1t_oN_th3_1nterBlag!}`
 
 
