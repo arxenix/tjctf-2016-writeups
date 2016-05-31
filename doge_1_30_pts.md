@@ -7,11 +7,11 @@
 ---
 
 ## Solution
-1) Run `file nowisitreally.txt`.
-2) We see that the file is actually a midi file.
-3) Open the midi file in Audacity.
-4) We see the flag in the sound pattern.
+
+We plug the picture into stegsolve for a (hard-to-read) flag.
+![flag image](stegsolve1.PNG)
 
 ---
 
 ## Flag
+`tjctf{th3_f0x_jump3d_0v3r_m3}`
