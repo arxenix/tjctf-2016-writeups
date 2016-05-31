@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Time Travel (90 pts)
    * [Java Sandbox (100 pts)](java_sandbox_100_pts.md)
    * [A Hundred Captchas (60 points)](a_hundred_captchas_60_points.md)
        * Time Travel (90 pts)
