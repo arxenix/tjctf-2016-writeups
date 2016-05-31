@@ -75,6 +75,7 @@ def solve(prob):
             i = i+1
     tokens.append(prob) # leftovers
     
+    # solve each character
     ans = ""
     for c in tokens:
         if c[0] == '':
