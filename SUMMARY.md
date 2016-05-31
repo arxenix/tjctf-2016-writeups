@@ -11,5 +11,5 @@
    * [Crucible (140 pts)](crucible_140_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
    * [torrent (90 pts)](torrent_90_pts.md)
-   * tsundere (160 pts)
+   * [tsundere (160 pts)](tsundere_160_pts.md)
 
