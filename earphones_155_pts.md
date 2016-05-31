@@ -7,7 +7,7 @@
 ---
 
 ## Solution
-1) Write a z3 python script that takes in all the constraints.
+1) Write a z3 python script that takes in all the constraints. For example, we know that the string given to us is in format `tjctf{...}`, and that it's in ascii. As such, we already know the values of a lot of the characters:<br>
 ```
 #!/usr/bin/python
 
@@ -98,7 +98,6 @@ for map in replace.replace(" ", "").replace("\n", "").replace("[","").replace("]
     flag = flag.replace(map[0], map[2])
 print flag
 ```
-
 3) Convert the flag numbers to ascii to get the flag.
 
 ---
