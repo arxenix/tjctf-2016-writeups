@@ -10,4 +10,5 @@
    * [Use the Force (80 pts)](use_the_force_80_pts.md)
    * [Crucible (140 pts)](crucible_140_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
+   * torrent (90 pts)
 
