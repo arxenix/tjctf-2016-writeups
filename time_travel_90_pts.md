@@ -42,4 +42,4 @@ Although it takes a while to run, it's easier than manually clicking through all
 
 ## Flag
 
-`tjctf{7FtNg1Vu7bbAhszil8IBveu3jlxFhxsZDpV5AapNYQqnxz09VAHG4gOodNdj6SGcClq1hyVeRi27bdG2jO9Z50aoN6VbT6Z0UQhtoLwJZvRAHfoU7DVM5PXlbMFZFIbw3lUDe6KnnuhWclr5MrpDEAPDkpeuL3DY5WWcWJMOMY7sRflcK6l9UCFaofZqtyG2zmKZYqox}`
+`tjctf{w1sh_i_c0uld_turn_b4ck_t1m3}`
