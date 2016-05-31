@@ -12,6 +12,7 @@
 3) a must be equal to the number of digits in the first repeating pattern, plus the number of repeated ones + 1
 4) b must be equal to the number of digits in the first repeating pattern+1
 5) Test to see if it works, then do a standard RSA decryption routine
+6) [put code here? or at least what a and b are]
 ---
 
 ## Flag
