@@ -1,10 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-   * Time Travel (90 pts)
-   * [Java Sandbox (100 pts)](java_sandbox_100_pts.md)
    * [A Hundred Captchas (60 points)](a_hundred_captchas_60_points.md)
        * Time Travel (90 pts)
+   * [Java Sandbox (100 pts)](java_sandbox_100_pts.md)
    * [RSA 2 (90 pts)](rsa_2_90_pts.md)
    * [RSA 1 (60 pts)](rsa_1_60_pts.md)
    * [May 1st, 2060 (100 pts)](may_1st,_2060_100_pts.md)
@@ -16,5 +15,5 @@
    * [tsundere (160 pts)](tsundere_160_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [oneshot (170 pts)](oneshot_170_pts.md)
-   * roverctl (100 pts)
+   * [roverctl (100 pts)](roverctl_100_pts.md)
 
