@@ -2,10 +2,11 @@
 
 ---
 
-
 ## Problem
 I heard that this server will give you a flag if you solve a few captchas for them. 
 `nc p.tjctf.org 8008`
+
+---
 
 ## Solution
 We first access the server using the given command, and find that we have to solve 100 captchas within 30 seconds. Realizing this is infeasible to do by hand, we must write a program to do it for us. 
