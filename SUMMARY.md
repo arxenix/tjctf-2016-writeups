@@ -21,4 +21,5 @@
    * [Doge 2 (35 pts)](doge_2_35_pts.md)
    * [Znzarmt Mvd Hproo (10 pts)](znzarmt_mvd_hproo_10_pts.md)
    * [gravitymud (90 pts)](gravitymud_90_pts.md)
+   * Super Questionable Luggage Service (30 pts)
 
