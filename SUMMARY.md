@@ -25,4 +25,5 @@
    * [Znzarmt Mvd Hproo (10 pts)](znzarmt_mvd_hproo_10_pts.md)
    * [gravitymud (90 pts)](gravitymud_90_pts.md)
    * [corruption (90 pts)](corruption_130_pts.md)
+   * Super Questionable Luggage Service (30 pts)
 
