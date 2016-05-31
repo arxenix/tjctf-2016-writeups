@@ -6,5 +6,5 @@
    * [RSA 2 (90 pts)](rsa_2_90_pts.md)
    * [RSA 1 (60 pts)](rsa_1_60_pts.md)
    * [May 1st, 2060 (100 pts)](may_1st,_2060_100_pts.md)
-   * Sketchy Airlines (100 pts)
+   * [Sketchy Airlines (100 pts)](sketchy_airlines_100_pts.md)
 
