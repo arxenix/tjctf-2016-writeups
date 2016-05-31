@@ -18,3 +18,6 @@ This problem is straightforward, yet so wonderfully devious. Essentially, you ar
 This means that all we have to do is add 0xE681D to our computed libc base adress, and send that as our jump location.
 
 pwned.
+
+##Flag
+`tjctf{m4gic_And_m0re_Mag1cK}`
