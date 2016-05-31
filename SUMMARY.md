@@ -7,6 +7,7 @@
    * [Time Travel (90 pts)](time_travel_90_pts.md)
    * [torrent (90 pts)](torrent_90_pts.md)
    * [RSA 2 (90 pts)](rsa_2_90_pts.md)
+   * [Doge 1 (30 pts)](doge_1_30_pts.md)
    * [nowisitreally (30 pts)](nowisitreally_30_pts.md)
    * [Java Sandbox (100 pts)](java_sandbox_100_pts.md)
    * [May 1st, 2060 (100 pts)](may_1st,_2060_100_pts.md)
@@ -17,5 +18,4 @@
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * [roverctl (100 pts)](roverctl_100_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * [Doge 1 (30 pts)](doge_1_30_pts.md)
 
