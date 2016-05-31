@@ -17,4 +17,5 @@
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * roverctl (100 pts)
    * [nowisitreally (30 pts)](nowisitreally_30_pts.md)
+   * Doge 1 (30 pts)
 
