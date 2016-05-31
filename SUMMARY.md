@@ -15,6 +15,6 @@
    * [tsundere (160 pts)](tsundere_160_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [oneshot (170 pts)](oneshot_170_pts.md)
-   * roverctl (100 pts)
+   * [roverctl (100 pts)](roverctl_100_pts.md)
    * [nowisitreally (30 pts)](nowisitreally_30_pts.md)
 
