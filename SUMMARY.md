@@ -21,4 +21,7 @@
    * [Cipher Font (50 pts)](cipher_font_50_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
+   * [Doge 2 (35 pts)](doge_2_35_pts.md)
+   * [Znzarmt Mvd Hproo (10 pts)](znzarmt_mvd_hproo_10_pts.md)
+   * [gravitymud (90 pts)](gravitymud_90_pts.md)
 
