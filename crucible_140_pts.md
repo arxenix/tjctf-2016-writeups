@@ -20,10 +20,10 @@ crucible.py matrix.py encrypted.txt
     8. `temp = [curr[0]] + [Decimal(2) * curr[x + 1] + r * (curr[x] - Decimal(2) * curr[x + 1] + curr[x + 2]) for x in range(n - 2)] + [curr[n - 1]]`
     8. sets `curr` equal to the matrix multiplication of `inv` and `temp`
   7. Outputs `curr`
-3. We can reverse this encryption with the following procedure:
+3. We can now decrypt with the following procedure:
   4. Let `curr` equal the ciphertext array
   5. Repeat 100 times:
-    6. `temp`= Undo the array transformation on `curr`
+    6. `temp`= Undo the array transformation on `curr`, it is reversible!
     7. set `curr` to the matrix multiplication of `matrix` and `temp`, to undo the matrix multiplication because `matrix` is the inverse of `inv`
   6. Round each element in `curr` to the nearest integer, then convert each integer to a character based on ordinal values
 
