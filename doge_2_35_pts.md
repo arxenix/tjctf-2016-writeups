@@ -3,6 +3,7 @@
 ---
 
 ## Problem
+Do the red colors look a little bit odd in this picture to you?
 
 ---
 
