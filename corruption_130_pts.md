@@ -106,7 +106,7 @@ public static void genAll() throws IOException {
 ![flag image][image]
 
 
-[image]: http://filebin.ca/2izgk9c68hW4/fix-600_4_16.png
+[image]: fix-600_4_16.png
 
 ---
 
