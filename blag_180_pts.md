@@ -19,7 +19,7 @@ Despite my initial hopes, this buffer overflow proved to be useless (or did it?)
 ```
    
    
-  I gave up on this problem on the first day and came back to it with ~4 hours left in the competition. My teammates and I combed through the source again, and we concluded that the aforementioned buffer overflow was the only vulnerability in the program. I tried to overflow the buffer again, but this time with the full overflow size (320 bytes), and this time I got somthing interesting
+  I gave up on this problem on the first day and came back to it with ~4 hours left in the competition. My teammates and I combed through the source again, and we concluded that the aforementioned buffer overflow was the only vulnerability in the program. I tried to overflow the buffer again, but this time with the full overflow size (320 bytes), and this time I got something interesting
 
 ```
 $ python -c 'print "add\n" + "a\n" +"a\n" + "A"*320 + "\n"' | ./blag_0eef9b24c4a119def3a50a6095b43d952dbf77206da9a95886a3d3e0a76fee42
