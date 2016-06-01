@@ -26,5 +26,5 @@
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
    * [Basic Images (65 pts)](basic_images_65_pts.md)
-   * I can see right through you! (65 pts)
+   * [I can see right through you! (65 pts)](i_can_see_right_through_you_65_pts.md)
 
