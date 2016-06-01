@@ -8,7 +8,7 @@ I was using this great luggage storing service, but I accidentally stored my fla
 ---
 
 ## Solution
-It seems that the "retrieve luggage" function is vulnerable. Plugging in `' OR ''='`, we are able to dump the whole database. Scrolling down, we see something interesting:
+It seems that the "retrieve luggage" function is vulnerable to SQL injection. Plugging in `' OR ''='`, we are able to dump the whole database. Scrolling down, we see something interesting:
 ![](luggage_service.png)
 We reverse this string for the flag.
 
