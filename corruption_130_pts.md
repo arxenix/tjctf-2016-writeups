@@ -11,7 +11,7 @@
 2) We see that the file is corrupted.<br>
 3) Open the file in a hex editor.<br>
 4) We see that every chunk length and checksum is messed up, as well as the IHDR being blank.<br>
-5) Fix all the chunk lengths and checksums. We used [pngcsum](http://schaik.com/png/pngcsum.html) to fix the checksums. and the following code to fix the lengths:<br>
+5) Fix all the chunk lengths and checksums. We used [pngcsum](http://schaik.com/png/pngcsum.html) to fix the checksums, and the following code to fix the lengths:<br>
 ```java
 public static void fixLengths() throws IOException {
     byte[] bytes = Files.readAllBytes(Paths.get("corrupted_.png"));
