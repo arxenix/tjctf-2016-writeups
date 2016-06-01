@@ -8,7 +8,7 @@ Looks like the backdoor you installed on Pathfinder is working; you've captured 
 The packets are a `pcapng` file, which can be opened by Wireshark. We use the follow stream command to see the TCP exchange. Looking at the given PDF, we see that the packets have a image transfer followed by a series of camera rotation commands. 
 
 First, we assemble the image using the script below. The `img` file is a copy everything sent by the rover. 
-```
+```python
 import numpy as np
 # import scipy.misc.pilutil as smp
 from scipy import misc as smp
@@ -40,7 +40,7 @@ pic.show()                      # View in default viewer
 
 We generate the following image: ![](rover_output.png)
 We realize that this image is related to The Martian movie. These papers are surrounding the rover, and go from 0 to F. This gives 17 spots, including the sign in the middle. We use the camera rotation packets (where the `diff`s come from) to find some hex values:
-```
+```python
 signs = ["S", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]
 
 diffs = [8, -3, 2, 4, -4, -3, 4, -3, 2, 0, 1, 4, -5, 3, -4, 10, -9, 6, -6, 3, -3, 5, -8, 0, 2, 10, -8, -7, 6, 9, -8, -3, 2, -5, 6, -3, -1, -3, 3, 0, 4, -4, 4, 6]
