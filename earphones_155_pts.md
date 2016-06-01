@@ -54,7 +54,7 @@ print(s.check())
 print(s.model())
 ```
 2) Get each letter value from the z3 model.
-```
+```python
 flag = 'gWT ZYv za gdT WbR ZSX ZZa Ghr WWZ gbQ ZZJ te GRd Nz dnF gjI gdk gYH GYz dAA GrQ ZZb ZnC GWT Ggg Zbv dnc Wqq qrh WqO gbU grQ aa gVP dGT GnL gZE gQl dbE qZH ay Wqj dqM tu gZB gdo gds zi WYq qji Gbm qjt GWx qZF Zrn dnT gQN qQa gVd WGu qGX dgq ZQQ ZVf ZZs ZVt ty aK aO gQz dbO gYo ZWJ qgi dQD gjZ qVs dGY drd qWh dhd qrQ GGF zD Wnv qbW qhA gRZ dby ZqW gQB dGg Gqj WZl ZYY dGK WQo WAW ZQU qYL Zde ZWn zm dVL dVE Zgo ZSP'
 replace = """[w = 4,
  e = 8,
