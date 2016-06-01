@@ -8,10 +8,10 @@
 
 ## Solution
 
-1) Scan barcode given in picture (type is PDF417) to get his ticket number
-2) Get to login portal by entering ticket number
-3) Use a Hash-length extension attack to bypass the login. Set username to his full name
-4) Run pdftotext on the PDF that is returned. Get flag.
+1. Scan barcode given in picture (type is PDF417) to get his ticket number
+2. Get to login portal by entering ticket number
+3. Use a Hash-length extension attack to bypass the login. Set username to his full name
+4. Run pdftotext on the PDF that is returned. Get flag.
 
 Python code to generate the LEA:
 ```
