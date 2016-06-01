@@ -7,7 +7,7 @@
 ---
 
 ## Solution
-1) Write a z3 python script that takes in all the constraints. For example, we know that the string given to us is in format `tjctf{...}`, and that it's in ascii. The three digit numbers, then, will always start with 1, and the 2 digit numbers always start with 9 (assuming all lowercase). As such, we already know the values of a lot of the characters. Note, we didn't use these, because apparently it's fast enough to just z3 through them with just the given constraints.<br>
+1) Write a z3 python script that takes in all the constraints. For example, we know that the string given to us is in format `tjctf{...}`, and that it's in ascii. The three digit numbers, then, will always start with 1, and the 2 digit numbers always start with 9 (assuming all lowercase). As such, we already know the values of a lot of the characters. Note: we didn't use these, because apparently it's fast enough to just z3 through them with just the given constraints.<br>
 ```
 T = 6
 Y = 0
