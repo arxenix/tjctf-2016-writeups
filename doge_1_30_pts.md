@@ -3,6 +3,7 @@
 ---
 
 ## Problem
+My friend's dog was swimming around in the ocean and found a flag, but she refuses to give it to me. Can you find get it from here? 
 
 ---
 
