@@ -21,7 +21,7 @@
    * [Sketchy Airlines (100 pts)](sketchy_airlines_100_pts.md)
    * [roverctl (100 pts)](roverctl_100_pts.md)
    * [corruption (130 pts)](corruption_130_pts.md)
-   * [Crucible (140 pts)](crucible_140_pts.md)
+   * [crucible (140 pts)](crucible_140_pts.md)
    * [earphones (155 pts)](earphones_155_pts.md)
    * [tsundere (160 pts)](tsundere_160_pts.md)
    * [oneshot (170 pts)](oneshot_170_pts.md)
