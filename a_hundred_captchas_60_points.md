@@ -13,7 +13,7 @@ We first access the server using the given command, and find that we have to sol
 
 We can see that each character in the captcha is generated using `figlet`. Thus, we write a python script to compare each character to the possible figlet outputs, solving the captcha. This program also handles the connection with the server, and gets the flag when finished. 
 
-```
+```python
 import socket
 from pprint import pprint
 import subprocess
