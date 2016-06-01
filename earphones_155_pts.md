@@ -4,6 +4,8 @@
 
 ## Problem
 
+and a chorus of [cicadas](https://static.tjctf.org/cicadas_b7bb617b6035c556599f6510755cdb16e1730f1d33156849ecf9f95a2202a32d.txt) 
+
 ---
 
 ## Solution
