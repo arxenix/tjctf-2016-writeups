@@ -23,7 +23,7 @@ t = 9
 ```
 
 
-```
+```python
 #!/usr/bin/python
 
 from z3 import *
