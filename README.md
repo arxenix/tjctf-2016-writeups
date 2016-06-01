@@ -1,5 +1,5 @@
 # TJCTF 2016 Writeups - My Computer is a Potato
-This repository contains some writeups for the problems in TJCTF 2016. Our team name was "My Computer is a Potato", and we placed 1st.
+This repository contains some writeups for the problems in TJCTF 2016. Our team name was "My Computer is a Potato", and we placed 1st. We also flag hoarded.
 
 ## Scoreboard
 ![](scoreboard.png)
