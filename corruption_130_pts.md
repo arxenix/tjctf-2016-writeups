@@ -3,6 +3,7 @@
 ---
 
 ## Problem
+Have a free flag! It might have gotten corrupted in transmission, but that shouldn't be a problem for you. Right? 
 
 ---
 
