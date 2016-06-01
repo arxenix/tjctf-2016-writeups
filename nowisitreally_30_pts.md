@@ -3,7 +3,7 @@
 ---
 
 ## Problem
-Here is a [text file]() with the flag. 
+Here is a text file with the flag. 
 
 ---
 
