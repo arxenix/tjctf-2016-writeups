@@ -12,7 +12,7 @@ Find the flag. usetheforce.p.tjctf.org
 2. We need to de-obfuscate this...
 3. its calling eval() and passing in some globals and locals
   4. We add some print statements to see what exactly its evaluating, and what those globals and locals are
-  5. It's trying to evaluate `d(t(n,p(r(l(m(o,x))),t(b,p(m(o,c(y)(a(s))),m(o,c(z)(a(s))))))))`
+  5. It's trying to evaluate `A[20]`, which is `d(t(n,p(r(l(m(o,x))),t(b,p(m(o,c(y)(a(s))),m(o,c(z)(a(s))))))))`
   6. We look in the globals and locals to see what each of those functions is. The globals dict is `D`, and the locals dict is `dict(zip(A[19], A[:3]), s=text)`
   7. We attempt to simplify the function:
   8. `return not all(itertools.starmap(operator.contains,zip(itertools.repeat([0, 32]),itertools.starmap(operator.sub,zip(map(ord,str(s).lower()),map(ord,str(s).upper()))))))`
