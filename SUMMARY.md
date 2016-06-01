@@ -9,6 +9,7 @@
    * [Cipher Font (50 pts)](cipher_font_50_pts.md)
    * [RSA 1 (60 pts)](rsa_1_60_pts.md)
    * [A Hundred Captchas (60 points)](a_hundred_captchas_60_points.md)
+   * [Basic Images (65 pts)](basic_images_65_pts.md)
    * [Use the Force (80 pts)](use_the_force_80_pts.md)
    * [Time Travel (90 pts)](time_travel_90_pts.md)
    * [torrent (90 pts)](torrent_90_pts.md)
@@ -25,6 +26,5 @@
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * [Basic Images (65 pts)](basic_images_65_pts.md)
    * [I can see right through you! (65 pts)](i_can_see_right_through_you_65_pts.md)
 
