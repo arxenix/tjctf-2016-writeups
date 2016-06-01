@@ -12,7 +12,7 @@ We take the pixel values of each image, convert to hex, and concatenate them.
 
 ```python
 from PIL import Image
-im = Image.open("curses.png")
+im = Image.open("curses_and_hexes.png")
 width, height = im.size
 a=open('out.txt','w')
 for pixel in im.getdata():
@@ -22,7 +22,7 @@ for pixel in im.getdata():
 a.close()
 ```
 
-We then get a long text, seemingly from a book. Inside we find the flag.
+We then get a long text, seemingly from a book. Inside we find the flag (ctrl+f "tjctf").
 
 ---
 
