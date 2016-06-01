@@ -1,7 +1,9 @@
 # TJCTF 2016 Writeups - My Computer is a Potato
 This repository contains some writeups for the problems in TJCTF 2016. Our team name was "My Computer is a Potato", and we placed 1st.
 
-
+## Scoreboard
+![](scoreboard.png)
+In case you doubt us. Or if you don't. 
 
 ## Members
 * Bret Barkley (brett0_ghett0) - Thomas Jefferson (PA)
