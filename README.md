@@ -3,7 +3,7 @@ This repository contains some writeups for the problems in TJCTF 2016. Our team 
 
 ## Scoreboard
 ![](scoreboard.png)
-In case you doubt us.
+In case you doubt us. Or if you don't. 
 
 ## Members
 * Bret Barkley (brett0_ghett0) - Thomas Jefferson (PA)
