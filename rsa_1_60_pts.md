@@ -14,7 +14,7 @@
 4. Concatenate all messages to get the flag
 
 Code below:
-```
+```python
 f = open('rsa1.txt').readlines()
 
 import random
