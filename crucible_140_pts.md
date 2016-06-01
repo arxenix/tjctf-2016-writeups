@@ -27,7 +27,7 @@ crucible.py matrix.py encrypted.txt
     7. set `curr` to the matrix multiplication of `matrix` and `temp`, to undo the matrix multiplication because `matrix` is the inverse of `inv`
   6. Round each element in `curr` to the nearest integer, then convert each integer to a character based on ordinal values
 
-My shitty implementation of this decryption procedure is below (hardcoded for a length 26 ciphertext):
+My implementation of this decryption procedure is below:
 ```python
 from decimal import *
 from matrix import *
@@ -35,13 +35,13 @@ from z3 import *
 
 getcontext().prec = 500
 
-size = 26
 rd = Decimal(0.5)
 
 encrypted = open('encrypted.txt').read()
 encrypted = encrypted.replace("[","").replace("]","").replace("Decimal(","").replace(")","").replace("'","").split(", ")
 
 encrypted = [Decimal(x) for x in encrypted]
+size = len(encrypted)
 
 matrix = [[0 for x in range(size)] for y in range(size)]
 for i in range(size):
@@ -54,43 +54,17 @@ for i in range(size):
 
 inv = invert(matrix)
 
-a = Real('a')
-b = Real('b')
-c = Real('c')
-d = Real('d')
-e = Real('e')
-f = Real('f')
-g = Real('g')
-h = Real('h')
-i = Real('i')
-j = Real('j')
-k = Real('k')
-l = Real('l')
-m = Real('m')
-n = Real('n')
-o = Real('o')
-p = Real('p')
-q = Real('q')
-r = Real('r')
-s = Real('s')
-t = Real('t')
-u = Real('u')
-v = Real('v')
-w = Real('w')
-x = Real('x')
-y = Real('y')
-z = Real('z')
-alph = 'abcdefghijklmnopqrstuvwxyz'
+alph = "abcdefghijklmnopqrstuvwxyz"
+varlist = []
+for char in alph:
+	varlist.append(Real(char))
 
-def unmix(curr):
+def undo_transform(curr):
 	solver = Solver()
-	solver.add(a == curr[0])
-	solver.add(z == curr[25])
-	for var in range(24):
-		#Decimal(2) * curr[x + 1] + rd * (curr[x] - Decimal(2) * curr[x + 1] + curr[x + 2])
-		evalline = 'solver.add(Decimal(2) * '+alph[var+1]+' + rd*('+alph[var]+' - Decimal(2) * '+alph[var+1] + ' + '+alph[var+2]+')== curr['+str(var+1)+'])'
-		#print evalline
-		eval(evalline)
+	solver.add(varlist[0] == curr[0])
+	solver.add(varlist[-1] == curr[-1])
+	for var in range(len(curr)-2):
+		solver.add(Decimal(2) * varlist[var+1] + rd*(varlist[var] - Decimal(2) * varlist[var+1] + varlist[var+2])==curr[var+1])
 	solver.check()
 	model = solver.model()
 	ret = [0]*26
@@ -100,11 +74,10 @@ def unmix(curr):
 		ret[alph.index(name)] = Decimal(sol.as_decimal(500)[:-1])
 	return ret
 
-
 for step in range(100):
     print step
     encrypted = mult(matrix, encrypted)
-    encrypted = unmix(encrypted)
+    encrypted = undo_transform(encrypted)
 
 encrypted = [chr(int(x.to_integral_value())) for x in encrypted]
 print encrypted
