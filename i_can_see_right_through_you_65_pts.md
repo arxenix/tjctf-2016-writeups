@@ -3,7 +3,7 @@
 ---
 
 ## Problem
-stuff
+Bet you can't find the tasty flag I put into [this image](https://static.tjctf.org/i_can_see_right_through_you_ce76e115558c75229b06eb050a3e1755d108dc7f364e17b212c8fd0bccff1dd1.png)! Don't worry, I fried it first. 
 
 ---
 
