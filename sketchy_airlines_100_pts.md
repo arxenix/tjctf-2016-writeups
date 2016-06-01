@@ -14,7 +14,7 @@
 4. Run pdftotext on the PDF that is returned. Get flag.
 
 Python code to generate the LEA:
-```
+```python
 import hashpumpy
 import urllib2
 import requests
