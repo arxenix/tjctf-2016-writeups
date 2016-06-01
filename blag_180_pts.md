@@ -13,7 +13,7 @@ I spent probably 5 or 6 hours in total looking at the source. I found the initia
 52:  readline(buf,sizeof(p->body),stdin); //buffer overflow 320 -> 32
 ```
    
-Despite my initial hopes, this buffer overflow proved to be useless (or did it?) due to   ProPolice Stack Smashing Protection (SSP). I'm sure a lot of you saw this:
+Despite my initial hopes, this buffer overflow proved to be useless (or did it?) due to ProPolice Stack Smashing Protection (SSP). I'm sure a lot of you saw this:
 ```
 *** stack smashing detected ***: ./blag_0eef9b24c4a119def3a50a6095b43d952dbf77206da9a95886a3d3e0a76fee42 terminated
 ```
