@@ -1,11 +1,11 @@
 # Blag (180 points)
 
 
-###Problem overview:
+## Problem Overview
 
   You're given a binary for a blog server that has a bug. You must exploit this bug to get the flag out of the admin's post, which the server won't let you read under normal circumstances.
   
-###The process:
+## The Process
    I'll have to admit, this one had me stumped until the last two hours of the competition
 I spent probably 5 or 6 hours in total looking at the source. I found the initial buffer overflow within about 10 minutes, but I didn't know what to do with it.
    
