@@ -16,9 +16,9 @@ im = Image.open("curses.png")
 width, height = im.size
 a=open('out.txt','w')
 for pixel in im.getdata():
-    a.write(char(pixel[0]))
-    a.write(char(pixel[1]))
-    a.write(char(pixel[2]))
+    a.write(chr(pixel[0]))
+    a.write(chr(pixel[1]))
+    a.write(chr(pixel[2]))
 a.close()
 ```
 
