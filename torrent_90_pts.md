@@ -3,7 +3,7 @@
 ---
 
 ## Problem
-Helo, someone's sharing flags
+Help, someone's sharing flags
 
 ---
 
