@@ -27,5 +27,4 @@
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * R U Insane?
 
