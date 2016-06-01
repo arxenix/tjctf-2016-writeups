@@ -3,6 +3,7 @@
 * [Introduction](README.md)
    * [R U Insane? (5 pts)](r_u_insane_5_pts.md)
    * [Znzarmt Mvd Hproo (10 pts)](znzarmt_mvd_hproo_10_pts.md)
+   * [One Time Subtraction (20 pts)](one_time_subtraction_20_pts.md)
    * [Doge 1 (30 pts)](doge_1_30_pts.md)
    * [nowisitreally (30 pts)](nowisitreally_30_pts.md)
    * [Super Questionable Luggage Service (30 pts)](super_questionable_luggage_service_30_pts.md)
@@ -28,5 +29,4 @@
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * [One Time Subtraction (20 pts)](one_time_subtraction_20_pts.md)
 
