@@ -3,7 +3,7 @@
 ---
 
 ## Problem
-
+I tried setting up Google Apps for TJCTF a while ago, but it wasn't working. Don't worry, I'm pretty sure it's fixed now.
 
 ---
 
