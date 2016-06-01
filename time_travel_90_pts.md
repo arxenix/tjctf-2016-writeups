@@ -35,7 +35,7 @@ for link in soup.find_all('a'):
         print(data2[ind:ind+100])
 ```
 
-Although it takes a while to run, it's easier than manually clicking through all those links. We soon see that one of the "verification codes" is longer than the rest: `dGpjdGZ7dzFzaF9pX2MwdWxkX3R1cm5fYjRja190MW0zfSAg`. We conver t from base 64 to ascii for the flag.
+Although it takes a while to run, it's easier than manually clicking through all those links. We soon see that one of the "verification codes" is longer than the rest: `dGpjdGZ7dzFzaF9pX2MwdWxkX3R1cm5fYjRja190MW0zfSAg`. We convert from base 64 to ascii for the flag.
 
 
 ---
