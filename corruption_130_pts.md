@@ -14,19 +14,25 @@
 5) Fix all the chunk lengths and checksums. We used [pngcsum](http://schaik.com/png/pngcsum.html) to fix the checksums. and the following code to fix the lengths:<br>
 ```
 public static void fixLengths() throws IOException {
-    byte[] bytes = Files.readAllBytes(Paths.get("corrupted_.png"));
+    byte[] bytes = Files.readAllBytes(Paths.get("corrupted_.png")); // read the image
     int idx = -1;
     int sum = 0;
     int total = 0;
     for(int i = 0; i < bytes.length; i++) {
+        // if IHDR or IEND
         if(bytes[i] == (byte)73 && bytes[i+1] == (byte)68 && bytes[i+2] == (byte)65 && bytes[i+3] == (byte)84 ||
                 bytes[i] == (byte)73 && bytes[i+1] == (byte)69 && bytes[i+2] == (byte)78 && bytes[i+3] == (byte)68) {
+            // if first IHDR continue
             if(idx == -1) {
                 idx = i;
                 continue;
             }
+
+            // calc difference between this chunk and last one
             int diff = i - idx - 12;
             sum += diff;
+
+            // set appropriate lengths
             bytes[idx-4] = (byte)(diff >> 24);
             bytes[idx-3] = (byte)(diff >> 16);
             bytes[idx-2] = (byte)(diff >> 8);
@@ -36,6 +42,8 @@ public static void fixLengths() throws IOException {
             total++;
             System.out.println("dif " + diff);
         }
+
+        // manually set IEND length
         if(bytes[i] == (byte)73 && bytes[i+1] == (byte)69 && bytes[i+2] == (byte)78 && bytes[i+3] == (byte)68) {
             bytes[i-4] = (byte)0;
             bytes[i-3] = (byte)0;
@@ -55,19 +63,28 @@ public static void fixLengths() throws IOException {
 8) Brute force create images of widths up to 1000 with an arbitrary set height (also need to fix checksums of each image).<br>
 ```
 public static void genAll() throws IOException {
+    // read file
     byte[] bytes = Files.readAllBytes(Paths.get("corrupted_new_fixed.png"));
+    // brute force widths
     for(int i = 200; i <= 1000; i+=5)
+        // brute force colors (in this example, we are just brute forcing grayscale with alpha channel)
         for(int colour : Arrays.asList(4)) {
+            // init bit depths that always exist
             ArrayList<Integer> bitDepths = new ArrayList<>();
             bitDepths.add(8);
             bitDepths.add(16);
+
+            // add bit depths that only exist for pure grayscale
             switch(colour) {
                 case 0:
                     bitDepths.add(1);
                     bitDepths.add(2);
                     bitDepths.add(4);
             }
+
+            // brute force each bit depth
             for(int bD : bitDepths) {
+                // create new file
                 FileOutputStream fos = new FileOutputStream("image-out/" + i + "_" + colour + "_" + bD + ".png");
                 bytes[18] = (byte)(i >> 8);
                 bytes[19] = (byte)i;
@@ -80,6 +97,7 @@ public static void genAll() throws IOException {
 
             }
         }
+    }
 }
 
 ```
