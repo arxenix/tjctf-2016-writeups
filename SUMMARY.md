@@ -28,5 +28,5 @@
    * [oneshot (170 pts)](oneshot_170_pts.md)
    * [blag (180 pts)](blag_180_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * One Time Subtraction (20 pts)
+   * [One Time Subtraction (20 pts)](one_time_subtraction_20_pts.md)
 
