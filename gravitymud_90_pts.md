@@ -8,7 +8,7 @@ Wanna hear a joke? north, south, east, west, up, down, examine item
 
 ## Solution
 I used the following python script to explore this map:
-```
+```python
 import socket
 from pprint import pprint
 
