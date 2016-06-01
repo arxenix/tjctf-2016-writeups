@@ -14,7 +14,7 @@ We then login successfully with the username `' or ''='` and password `' or ''='
 
 At this point we reach a page where we can type, then submit a java program to compile and run it. In the security page, we are told that the flag resides at `/var/www/flag.txt`. We created a small java program to attempt to read this flag:
 
-```
+```java
 import java.io.BufferedReader;
 import java.io.FileReader;
 
@@ -30,7 +30,7 @@ However, when we submit this program, we get an error message saying that access
 
 We then see that source for the custom security manager and the program wrapper is available on the security page as well:
 
-```
+```java
 import java.lang.reflect.Method;
 import java.security.Permission;
 import java.util.ArrayList;
@@ -141,7 +141,7 @@ Upon analysing this, we see that access to the file is restricted because its pa
 From the wrapper class, we see that CustomSecurityManager is in the same namespace as where "Main" (the uploaded class) is located. This means we can reference the CustomSecurityManager directly.
 
 We then run the following code and successfully read the flag:
-```
+```java
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.List;
