@@ -3,7 +3,7 @@
 ---
 
 ## Problem
-stuff
+Check out my [shades](https://static.tjctf.org/shades_94e8895ce768575f55dd91819c8e5db7d9d7a913062dd8f2d4bc1742c0c46ecc.png)! If you want the flag, I guess you should be basic like me. Good luck! 
 
 ---
 
