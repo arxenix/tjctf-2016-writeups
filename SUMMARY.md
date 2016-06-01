@@ -16,7 +16,7 @@
    * [torrent (90 pts)](torrent_90_pts.md)
    * [RSA 2 (90 pts)](rsa_2_90_pts.md)
    * [gravitymud (90 pts)](gravitymud_90_pts.md)
-   * [corruption (120 pts)](corruption_130_pts.md)
+   * [corruption (130 pts)](corruption_130_pts.md)
    * [Java Sandbox (100 pts)](java_sandbox_100_pts.md)
    * [May 1st, 2060 (100 pts)](may_1st,_2060_100_pts.md)
    * [Sketchy Airlines (100 pts)](sketchy_airlines_100_pts.md)
