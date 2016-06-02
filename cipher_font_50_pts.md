@@ -11,6 +11,7 @@ This [webpage](http://cipherfont.p.tjctf.org/) contains a flag!
 1. We notice that a cipher font is used to 'encrypt' the text.
 2. Write a script that replaces the encrypted font letters with the right letters.
 
+
 ```java
 static String in = "..."; // the really long ciphertext
 static String out1 = in;
@@ -52,7 +53,8 @@ public static void replace(char a, char b) {
     out2 = out2.replace(a + "", "");
 }
 ```
-4. Compute the md5 hash of the decrypted text.
+
+Then compute the md5 hash of the decrypted text.
 
 ---
 
