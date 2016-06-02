@@ -7,9 +7,8 @@ I encrypted this flag with a one time pad, but my friend says it's not secure be
 
 ---
 
-
 ## Solution
-This was a tough one as well, though not quite as tough as `R U Insane`. That one was insane.
+This was a tough one as well, though not quite as tough as `R U Insane?`. That one was insane.
 
 We are given the following ciphertext: `241 231 224 241 227 248 173 235 176 220 223 246 241 176 220 174 240 220 235 173 241 220 176 235 173 242 228 229 250 135`. We know that all flags are in the form `tjctf{XXX}`. From the problem title, we predict that we should subtract a constant "key" from each value, and convert to a character using ASCII. 
 
