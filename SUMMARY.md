@@ -29,7 +29,7 @@
    * [earphones (155 pts)](earphones_155_pts.md)
    * [tsundere (160 pts)](tsundere_160_pts.md)
    * [oneshot (170 pts)](Binaries R done/oneshot_170_pts.md)
-   * [blag (180 pts)](Binaries R done/blag_175_pts.md)
+   * [blag (180 pts)](Binaries R done/blag_180_pts.md)
    * [httc (190 pts)](Binaries R done/httc_190_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
 
