@@ -20,10 +20,10 @@ public static void fixLengths() throws IOException {
     int sum = 0;
     int total = 0;
     for(int i = 0; i < bytes.length; i++) {
-        // if IHDR or IEND
+        // if IDAT or IEND
         if(bytes[i] == (byte)73 && bytes[i+1] == (byte)68 && bytes[i+2] == (byte)65 && bytes[i+3] == (byte)84 ||
                 bytes[i] == (byte)73 && bytes[i+1] == (byte)69 && bytes[i+2] == (byte)78 && bytes[i+3] == (byte)68) {
-            // if first IHDR continue
+            // if first IDAT continue
             if(idx == -1) {
                 idx = i;
                 continue;
