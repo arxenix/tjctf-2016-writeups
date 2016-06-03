@@ -8,7 +8,7 @@ The History Museum sent us some money and encrypted the transfer using an Enigma
 ---
 
 ## Solution
-We started by reading about how engima machines worked online. From a ticket, we learned that this enigma machine did not utilize a pegboard (*steckers*). We also knew that the answer was not surrounded by the normal `tjctf{}` marker.
+We started by reading about how engima machines worked online. From a ticket, we learned that this enigma machine did not utilize a pegboard (*steckers*). We also knew that the answer was not surrounded by the normal `tjctf{}` marker. Even so, our best approach was to brute force the problem by generating every possible decryption.
 
 ---
 
