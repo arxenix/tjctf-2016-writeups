@@ -32,5 +32,5 @@
    * [blag (180 pts)](Binaries R done/blag_180_pts.md)
    * [httc (190 pts)](Binaries R done/httc_190_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * Reversing (20 pts)
+   * [Reversing (20 pts)](reversing_20_pts.md)
 
