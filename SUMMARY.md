@@ -25,6 +25,7 @@
    * [May 1st, 2060 (100 pts)](may_1st,_2060_100_pts.md)
    * [roverctl (100 pts)](roverctl_100_pts.md)
    * [Sketchy Airlines (100 pts)](sketchy_airlines_100_pts.md)
+   * [Guess (120 pts)](guess_120_pts.md)
    * [corruption (130 pts)](corruption_130_pts.md)
    * [crucible (140 pts)](crucible_140_pts.md)
    * [earphones (155 pts)](earphones_155_pts.md)
@@ -33,5 +34,4 @@
    * [blag (180 pts)](Binaries R done/blag_180_pts.md)
    * [httc (190 pts)](Binaries R done/httc_190_pts.md)
    * [curvature2 (200 pts)](curvature2_200_pts.md)
-   * [Guess (120 pts)](guess_120_pts.md)
 
